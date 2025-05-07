@@ -1,0 +1,95 @@
+body {
+    line-height:  1;
+}
+blockquote, q{
+    quotes: none;
+}
+blockquote ::before, blockquote ::after, q::before, q::after {
+    content: "";
+    content: none;
+}
+table {
+    border-collapse:collapse;
+    border-spacing: 0;
+}
+/* disini kita akan belajar border spacing */
+body {
+    background-image: url(img/floor-tile.png);
+    font: 16px / 28px arial, sans-serif;
+    background-color: antiquewhite;
+    color: 333;
+}
+.conteiner {
+    width: 800px;
+    margin: auto;
+    background-color:rgba(207, 169, 169, 0.76);
+}
+
+.header {
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+
+.header ul li {
+    font-size: 15px;
+    display: inline-block;
+    margin-top: -20px;
+    margin-right: 50px;
+    margin-left: -40px;
+    margin-bottom: 30px;
+}
+
+.header a {
+    text-decoration: none;  
+    color: darkred;
+}
+
+.header a:hover {
+    background-color: blanchedalmond;
+    color:cadetblue;
+}
+
+.gambar {
+    height: 250px;
+    background-image: url(img/pleasure.png.jpg);
+    background-size: cover;
+    background-position:0px -280px;
+    border-bottom: 5px solid mediumvioletred;
+    border-top: 5px solid mediumvioletred;
+}
+
+.content {
+    padding: 20px;
+}
+.content h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+.content .penulis {
+    font-size: 12px;
+    margin-top: -25px;
+}
+.penulis a {
+    font-style: italic;
+    color: darkred;
+}
+.penulis a:hover {
+    background-color: blanchedalmond;
+    color: cadetblue;
+}
+
+.footer{
+    background-color:darkslategray;
+    padding: 1px;
+}
+.footer .jj {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
